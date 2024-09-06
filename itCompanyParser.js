@@ -52,7 +52,8 @@ async function itCompanyList() {
     });
   }
 
-  console.log("///////////////////////////////////", "ВСЁЁЁЁЁЁЁЁЁЁ")
+  console.log("Конец!")
+  await browser.close()
 }
 
 itCompanyList();
